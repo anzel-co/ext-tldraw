@@ -1,0 +1,37 @@
+{
+    "manifest_version": "ext-v1",
+	"name": "TLDraw",
+	"version": "1.0.0",
+    "icons": {
+		"128": "icons/icon-1024.png",
+		"background": "icons/icon-background.png",
+		"banner": "icons/icon-banner.png"
+	},
+	"scripts": ["main.ts"],
+	"modules": {
+		"console": {
+			"permissions": ["*"],
+			"module_version": "1.0.1"
+		},
+		"runtime": {
+			"permissions": ["*"],
+			"module_version": "1.2.2"
+		},
+		"tabs": {
+			"permissions": ["*"],
+			"module_version": "1.1.0"
+		},
+		"windows": {
+			"permissions": ["*"],
+			"module_version": "1.2.0"
+		},
+		"webviews": {
+			"permissions": ["*"],
+			"module_version": "1.0.2"
+		},
+		"websessions": {
+			"permissions": ["*"],
+			"module_version": "1.0.1"
+		}
+	}
+}
